@@ -1,0 +1,93 @@
+<mxfile host="Electron" modified="2023-05-28T00:14:08.306Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/21.2.8 Chrome/112.0.5615.165 Electron/24.2.0 Safari/537.36" etag="O95VE7zHf-zCoCj91PMp" version="21.2.8" type="device" pages="5">
+  <diagram id="Om-QagOfzEKTfHPte4HS" name="Consolidation">
+    <mxGraphModel dx="5500" dy="4045" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="10000" pageHeight="10000" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="juAxXI1Y6v85lOPoJsQP-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="juAxXI1Y6v85lOPoJsQP-1" target="juAxXI1Y6v85lOPoJsQP-9" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="juAxXI1Y6v85lOPoJsQP-1" value="Electronics Box" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;dashed=1;" parent="1" vertex="1">
+          <mxGeometry x="80" y="90" width="980" height="840" as="geometry" />
+        </mxCell>
+        <mxCell id="juAxXI1Y6v85lOPoJsQP-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="juAxXI1Y6v85lOPoJsQP-5" target="juAxXI1Y6v85lOPoJsQP-1" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="juAxXI1Y6v85lOPoJsQP-5" value="Controls Box" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;dashed=1;" parent="1" vertex="1">
+          <mxGeometry x="1708" y="1451" width="700" height="600" as="geometry" />
+        </mxCell>
+        <mxCell id="juAxXI1Y6v85lOPoJsQP-9" value="Battery Box" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;dashed=1;" parent="1" vertex="1">
+          <mxGeometry x="7940" y="610" width="1320" height="1020" as="geometry" />
+        </mxCell>
+        <mxCell id="juAxXI1Y6v85lOPoJsQP-12" value="Telemetry Board" style="rounded=0;whiteSpace=wrap;html=1;fillColor=default;" parent="1" vertex="1">
+          <mxGeometry x="1986" y="1871" width="110" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="juAxXI1Y6v85lOPoJsQP-13" value="Lighting Board" style="rounded=0;whiteSpace=wrap;html=1;fillColor=default;" parent="1" vertex="1">
+          <mxGeometry x="2200" y="1570" width="100" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="juAxXI1Y6v85lOPoJsQP-14" value="Minion Board" style="rounded=0;whiteSpace=wrap;html=1;fillColor=default;" parent="1" vertex="1">
+          <mxGeometry x="1812" y="1711" width="110" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="juAxXI1Y6v85lOPoJsQP-15" value="Interface Board" style="rounded=0;whiteSpace=wrap;html=1;fillColor=default;" parent="1" vertex="1">
+          <mxGeometry x="2200" y="1700" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="juAxXI1Y6v85lOPoJsQP-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;targetPerimeterSpacing=0;fillColor=#e51400;strokeColor=#B20000;" parent="1" source="juAxXI1Y6v85lOPoJsQP-16" target="juAxXI1Y6v85lOPoJsQP-14" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="juAxXI1Y6v85lOPoJsQP-16" value="Leader Board" style="rounded=0;whiteSpace=wrap;html=1;fillColor=default;" parent="1" vertex="1">
+          <mxGeometry x="1812" y="1533" width="110" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="juAxXI1Y6v85lOPoJsQP-17" value="Driver Display" style="rounded=0;whiteSpace=wrap;html=1;fillColor=default;" parent="1" vertex="1">
+          <mxGeometry x="2200" y="1810" width="100" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="juAxXI1Y6v85lOPoJsQP-21" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1954" y="1794" as="sourcePoint" />
+            <mxPoint x="2004" y="1744" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="juAxXI1Y6v85lOPoJsQP-24" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;targetPerimeterSpacing=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1954" y="1912" as="sourcePoint" />
+            <mxPoint x="2004" y="1862" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="o2GFn_rTv5bFvZdDLJ88" name="Controls_Master">
+    <mxGraphModel dx="1100" dy="809" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="x26GEbd5adRJsgFTKZcS-1" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="110" width="445" height="630" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="DOoodxej_wPQM1gOh8vr" name="BPS_Master">
+    <mxGraphModel dx="1100" dy="809" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="vPZL6tvSWJEB9YnMRWZ9" name="Electronics_Master">
+    <mxGraphModel dx="1100" dy="809" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="PLcRuzQsqNH6co-NN8hN" name="Misc_Master">
+    <mxGraphModel dx="1100" dy="809" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
