@@ -1,0 +1,4 @@
+# Ignore backup files
+*.bkp
+# Ignore temporary dump files
+*.dtmp
