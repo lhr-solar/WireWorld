@@ -1,6 +1,6 @@
-<mxfile host="Electron" modified="2023-06-11T00:05:11.363Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/21.3.7 Chrome/112.0.5615.204 Electron/24.5.0 Safari/537.36" etag="qqY6in2ox9wZIGDPimWg" version="21.3.7" type="device" pages="6">
+<mxfile host="Electron" modified="2023-06-29T02:28:06.937Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/21.3.7 Chrome/112.0.5615.204 Electron/24.5.0 Safari/537.36" etag="Ag1uBOQopt3oeVQfxZ4D" version="21.3.7" type="device" pages="6">
   <diagram id="Om-QagOfzEKTfHPte4HS" name="Consolidation">
-    <mxGraphModel dx="4404" dy="3236" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="10000" pageHeight="10000" math="0" shadow="0">
+    <mxGraphModel dx="5184" dy="3428" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="10000" pageHeight="10000" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1413,11 +1413,11 @@
     </mxGraphModel>
   </diagram>
   <diagram id="DOoodxej_wPQM1gOh8vr" name="BPS_Master">
-    <mxGraphModel dx="6480" dy="4285" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="5000" pageHeight="5000" math="0" shadow="0">
+    <mxGraphModel dx="8640" dy="5713" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="5000" pageHeight="5000" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="8Gk4JBBsNEbLaWuri4gC-23" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;dashed=1;dashPattern=8 8;strokeWidth=7;rotation=-90;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;opacity=20;" vertex="1" parent="1">
+        <mxCell id="8Gk4JBBsNEbLaWuri4gC-23" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;dashed=1;dashPattern=8 8;strokeWidth=7;rotation=-90;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;opacity=60;" vertex="1" parent="1">
           <mxGeometry x="990" y="2760.2" width="6810" height="4609.6" as="geometry" />
         </mxCell>
         <mxCell id="8Gk4JBBsNEbLaWuri4gC-18" value="&lt;font style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 40px;&quot;&gt;Shunt Board&lt;br&gt;&lt;/span&gt;&lt;font style=&quot;font-size: 30px;&quot;&gt;(38.8 mm x 33 mm)&lt;/font&gt;&lt;br&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;rotation=90;horizontal=0;arcSize=5;strokeWidth=6;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;container=1;" vertex="1" parent="1">
@@ -1805,7 +1805,7 @@
         <mxCell id="8Gk4JBBsNEbLaWuri4gC-180" value="&lt;font style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 40px;&quot;&gt;Thermistor Expansion Modules&lt;/span&gt;&lt;br&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;rotation=90;horizontal=0;arcSize=5;strokeWidth=6;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;container=1;" vertex="1" parent="1">
           <mxGeometry x="3810" y="3150" width="330" height="388" as="geometry" />
         </mxCell>
-        <mxCell id="8Gk4JBBsNEbLaWuri4gC-24" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#b0e3e6;strokeWidth=6;rotation=0;dashed=1;dashPattern=1 1;opacity=10;strokeColor=#0e8088;" vertex="1" parent="1">
+        <mxCell id="8Gk4JBBsNEbLaWuri4gC-24" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=default;strokeWidth=6;rotation=0;dashed=1;dashPattern=1 1;opacity=10;strokeColor=#0e8088;" vertex="1" parent="1">
           <mxGeometry x="2514.2" y="4996.5" width="3627" height="1227" as="geometry" />
         </mxCell>
         <mxCell id="8Gk4JBBsNEbLaWuri4gC-25" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#b0e3e6;dashed=1;dashPattern=8 8;strokeWidth=5;rotation=90;opacity=10;strokeColor=#0e8088;" vertex="1" parent="1">
@@ -2071,7 +2071,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="PLcRuzQsqNH6co-NN8hN" name="Misc_Master">
-    <mxGraphModel dx="3670" dy="2697" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="5000" pageHeight="5000" math="0" shadow="0">
+    <mxGraphModel dx="3703" dy="2449" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="5000" pageHeight="5000" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -2079,7 +2079,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="TRzuBmFYIfwYvDVrO3kz" name="Elements">
-    <mxGraphModel dx="3670" dy="1097" grid="1" gridSize="3" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="5000" pageHeight="1600" math="0" shadow="0">
+    <mxGraphModel dx="6480" dy="2685" grid="1" gridSize="3" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="5000" pageHeight="1600" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
