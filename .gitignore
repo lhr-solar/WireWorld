@@ -1,0 +1,13 @@
+# For diagrams made with .drawio: https://www.drawio.com/
+
+# Drawio backup files
+*/.$*.drawio.bkp
+*/.$*.xml.bkp
+*/.$*.drawio.xml.bkp
+*/.bkp
+
+#Drawio dump files
+*/.$*.drawio.dtmp
+*/.$*.xml.dtmp
+*/.$*.drawio.xml.dtmp
+*/.dtmp
