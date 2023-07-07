@@ -1,4 +1,11 @@
 # Ignore backup files
 *.bkp
+*.drawio.bkp
+*.xml.bkp
+*.drawio.xml.bkp
+
 # Ignore temporary dump files
 *.dtmp
+*.drawio.dtmp
+*.xml.dtmp
+*.drawio.xml.dtmp
