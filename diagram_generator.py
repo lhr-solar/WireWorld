@@ -6,8 +6,8 @@ header2 = "<mxfile host=\"app.diagrams.net\">"
 footer = "</mxfile>"
 
 #delete the output file if it already exists
-if os.path.exists("./Master_diagram.xml"):
-    os.remove("./Master_diagram.xml")
+if os.path.exists("./Master_diagram.drawio"):
+    os.remove("./Master_diagram.drawio")
 
 #concat xml files
 retstr = ""
@@ -24,5 +24,5 @@ retstr = header + header2 + "\t" + retstr + footer
 
 
 #write the file
-with open("Master_diagram.xml", "w") as f:
+with open("Master_diagram.drawio", "w") as f:
     f.write(retstr)
