@@ -26,10 +26,10 @@ There are 2 ways to do this:
 2. (Windows only) Nvigate to where you want to clone the repo in File Explorer
 right click empty space -> Show more options -> Start Git Bash
 
-Once you've entered your cloning designation or choice, run the command ‘’’git clone’’’
+Once you've entered your cloning designation or choice, run the command ```git clone```
 The repository should now be copied into your folder 🥳
 Make sure to cd into your repository right after since when you clone a repo your computer won’t put you into that directory
-NOTE: When cloning board repositories you’ll run ‘’’git clone —recursive’’’ which will clone the submodule repository used to store the common KiCAD symbols and 3D models for their boards. Since as of 2023 this repo doesn’t use any submodule repositories you don’t need to add the recursive part, you can if you’d like.
+NOTE: When cloning board repositories you’ll run ```git clone —recursive``` which will clone the submodule repository used to store the common KiCAD symbols and 3D models for their boards. Since as of 2023 this repo doesn’t use any submodule repositories you don’t need to add the recursive part, you can if you’d like.
 
 ## Useful Commands
 1. ```cd``` is a command used to navigate between directories on your computer. The way you use it is you type ```cd [file directory]``` for example if I’m in my Documents folder and want to enter my LHR folder I’ll run ```cd LHR``` and I’ll be placed into my LHR folder. Something to else to keep in mind is that when you open your terminal or Git Bash you may be in your most root directory so you’ll need to navigate from your root to what folder you want. For example, if I’m in my root directory I’ll go ```cd Documents/LHR/WireWorld``` to navigate to my WireWorld folder. Pressing tab will autofill directories. Doing ```cd ..``` will go back one directory.
@@ -54,10 +54,23 @@ Only files that you did ```git add``` for will be pushed to the remote repositor
 7. Revel in how cool you feel :sunglasses: rn
 
 ## Wiring Diagram Formatting
-For the sake of :sparkles:	aesthetic :sparkles: we want to keep all wiring diagrams in the same formatting including: colors, sizing, wire thickness, and any descriptions
+For the sake of :sparkles:	aesthetic :sparkles: we want to keep all wiring diagrams in the same formatting including: colors, sizing, wire thickness, and any descriptions. Note we work in dark mode because dark mode is cool.
+- Colors:
+    1. For PWR wires:
+    2. For GND wires:
+    3. For CAN wires:
+    4. For Ethernet wires:
+    5. For misc GPIO wires:
+    7. For I2C wires:
+    8. For SPI wires:
+    9. For IsoSPI wires:
+- Wire thickness:
+- Board formatting:
+
+## Making a Pull Request
+In order to push to main you need to make a pull request where people can review your changes and make any modifications if needed before the changes are introduced into main.
+
 
 Reviewers:
 1. Hanna Nguyen
 2. Lakshay Gupta
-
-
