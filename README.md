@@ -4,7 +4,7 @@ This repository contains information the wiring of all the electrical systems in
 
 ## Setup
 ### Downloads
-Install the Diagrams.net (https://github.com/jgraph/drawio-desktop/releases/tag/v21.6.1) app
+Install the Diagrams.net desktop app (https://github.com/jgraph/drawio-desktop/releases/tag/v21.6.1)
 
 Download Python (https://www.python.org/downloads/)
 
@@ -33,16 +33,25 @@ NOTE: When cloning board repositories you’ll run ‘’’git clone —recursi
 
 ## Useful Commands
  1.    ```cd``` is a command used to navigate between directories on your computer. The way you use it is you type ```cd [file directory]``` for example if I’m in my Documents folder and want to enter my LHR folder I’ll run ```cd LHR``` and I’ll be placed into my LHR folder. Something to else to keep in mind is that when you open your terminal or Git Bash you may be in your most root directory so you’ll need to navigate from your root to what folder you want. For example, if I’m in my root directory I’ll go ```cd Documents/LHR/WireWorld``` to navigate to my WireWorld folder. Pressing tab will autofill directories. Doing ```cd ..``` will go back one directory.
-2.    ```ls``` is a command that will display all files inside a directory.
+2. ```ls``` is a command that will display all files inside a directory.
 
 
 ## Pushing to this repository 
 Make sure you’re not pushing to main, you should only be pushing to main though a Pull Request
-1.    Make sure you’re cd’d into your repository
-2.    Run ```git pull``` so you’re up to date with any other changes
-3.    Run  ```git status``` to check which files are different on your local folder from the repo
-4.    Run ```git add [file you want to push]``` if you want to push all your files run ```git add .```
-5.    Run ```git commit -m [a commit message that describes the changes you’ve made]```
-6.    Run ```git push```
+1. Make sure you’re cd’d into your repository
+2. Run ```git pull``` so you’re up to date with any other changes
+3. Run  ```git status``` to check which files are different on your local folder from the repo
+4. Run ```git add [file you want to push]``` if you want to push all your files run ```git add .```
+5. Run ```git commit -m [a commit message that describes the changes you’ve made]```
+6. Run ```git push```
 Only files that you did ```git add``` for will be pushed to the remote repository
 7. Revel in how cool you feel :sunglasses: rn
+
+## Wiring Diagram Formatting
+For the sake of :sparkles:	aesthetic :sparkles: we want to keep all wiring diagrams in the same formatting including: colors, sizing, wire thickness, and any descriptions
+
+Reviewers:
+1. Hanna Nguyen
+2. Lakshay Gupta
+
+
