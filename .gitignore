@@ -9,3 +9,6 @@
 *.drawio.dtmp
 *.xml.dtmp
 *.drawio.xml.dtmp
+
+# Mac specific stuff
+.DS_Store
