@@ -32,8 +32,14 @@ Make sure to cd into your repository right after since when you clone a repo you
 NOTE: When cloning board repositories you’ll run ‘’’git clone —recursive’’’ which will clone the submodule repository used to store the common KiCAD symbols and 3D models for their boards. Since as of 2023 this repo doesn’t use any submodule repositories you don’t need to add the recursive part, you can if you’d like.
 
 ## Useful Commands
- 1.    ```cd``` is a command used to navigate between directories on your computer. The way you use it is you type ```cd [file directory]``` for example if I’m in my Documents folder and want to enter my LHR folder I’ll run ```cd LHR``` and I’ll be placed into my LHR folder. Something to else to keep in mind is that when you open your terminal or Git Bash you may be in your most root directory so you’ll need to navigate from your root to what folder you want. For example, if I’m in my root directory I’ll go ```cd Documents/LHR/WireWorld``` to navigate to my WireWorld folder. Pressing tab will autofill directories. Doing ```cd ..``` will go back one directory.
+1. ```cd``` is a command used to navigate between directories on your computer. The way you use it is you type ```cd [file directory]``` for example if I’m in my Documents folder and want to enter my LHR folder I’ll run ```cd LHR``` and I’ll be placed into my LHR folder. Something to else to keep in mind is that when you open your terminal or Git Bash you may be in your most root directory so you’ll need to navigate from your root to what folder you want. For example, if I’m in my root directory I’ll go ```cd Documents/LHR/WireWorld``` to navigate to my WireWorld folder. Pressing tab will autofill directories. Doing ```cd ..``` will go back one directory.
 2. ```ls``` is a command that will display all files inside a directory.
+3. ```ctrl + c``` doesn't work for copying in terminal, you need to use ```ctrl + ins```
+4. ```ctrl + v``` doesn't work for pasting in terminal, you need to use ```shift + ins```
+5. ```git branch``` this command will print which branch you are on
+6. ```git checkout``` will switch which branch you're on. The way you use it is you do ```git checkout [branch name]``` if you are making a new branch do ```git checkout -b [new branch name]``` 
+When you a push a new branch to the repo you need to do ```git push --set-upstream origin [branch name]```
+7. ```git pull``` will pull changes from the remote repository to your local folder
 
 
 ## Pushing to this repository 
