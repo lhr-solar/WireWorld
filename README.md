@@ -19,8 +19,14 @@ If you see will be using Git for anything else then follow these guides for sett
 1. https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent
 2.https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account
 
+### Cloning the Repo
+When you clone the repo you need to make sure that you're putting the folder somewhere that's easily accessible to you and somewhere that makes sense.
+There are 2 ways to do this:
+1. Use the ```cd``` command to navigate to your goal location. (information on how to use this command is in the ``Useful Commands`` secton)
+2. 
 
-### Cloing the repo
+## Useful Commands
+
 
 
 
