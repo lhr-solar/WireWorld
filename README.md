@@ -12,14 +12,18 @@ Download git (https://git-scm.com/downloads)
 
 If you're in Wire Harnessing or Enclosures download KiCAD (https://www.kicad.org/download/)
 
+(Optional) Add the GitHub app in Slack to get notifications whenever someone comments on your PR or other notifications
+- Go to Slack -> Add Apps
+- Connect GitHub Account
+- Type in ```/github subscribe lhr-solar/[repository name]```
+
 ### Setting up Git
 If you don't see yourself viewing any boards then download GitHub Desktop (https://desktop.github.com/) :vomiting_face:
-
 If you see will be using Git for anything else (ie you’re a part of Wire Harnessing or Enclosures) then follow these guides for setting up SSH :sunglasses::
 1. https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent
 2. https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account
 
-### Cloning the Repo
+### Cloning the Repo :cyclone:
 When you clone the repo you need to make sure that you're putting the folder somewhere that's easily accessible to you and somewhere that makes sense.
 There are 2 ways to do this:
 1. Use the ```cd``` command to navigate to your goal location. (information on how to use this command is in the ``Useful Commands`` secton)
@@ -31,7 +35,7 @@ The repository should now be copied into your folder 🥳
 Make sure to cd into your repository right after since when you clone a repo your computer won’t put you into that directory
 NOTE: When cloning board repositories you’ll run ```git clone —recursive``` which will clone the submodule repository used to store the common KiCAD symbols and 3D models for their boards. Since as of 2023 this repo doesn’t use any submodule repositories you don’t need to add the recursive part, you can if you’d like.
 
-## Useful Commands
+## Useful Commands :exclamation:
 1. ```cd``` is a command used to navigate between directories on your computer. The way you use it is you type ```cd [file directory]``` for example if I’m in my Documents folder and want to enter my LHR folder I’ll run ```cd LHR``` and I’ll be placed into my LHR folder. Something to else to keep in mind is that when you open your terminal or Git Bash you may be in your most root directory so you’ll need to navigate from your root to what folder you want. For example, if I’m in my root directory I’ll go ```cd Documents/LHR/WireWorld``` to navigate to my WireWorld folder. Pressing tab will autofill directories. Doing ```cd ..``` will go back one directory.
 2. ```ls``` is a command that will display all files inside a directory.
 3. ```ctrl + c``` doesn't work for copying in terminal, you need to use ```ctrl + ins```
@@ -53,8 +57,9 @@ Make sure you’re not pushing to main, you should only be pushing to main thoug
 Only files that you did ```git add``` for will be pushed to the remote repository
 7. Revel in how cool you feel :sunglasses: rn
 
-## Common Problems :frowning:
+## Common Problems :construction_worker:
 1. You're trying to switch branches but git is telling you that there are local changes and you need to commit or stash them. This means you've changed someonething on your branch. If you don't want to commit your changes run ```git stash```
+2. Whoops, when you branched off you accidently changed a file that you didn't want to change, now you need to get a specific file from a different branch. Do ```git checkout [branch you want to checkout from] -- [file directory of path you want to check out (relative to your cloned folder)]```
 
 
 ## Wiring Diagram Formatting
@@ -83,16 +88,18 @@ For the sake of :sparkles:	aesthetic :sparkles: we want to keep all wiring diagr
     2. Wire text font size is usually 30 pt, but for any HV or large bundles of wires, the standard is 50 pt
 
 ## Making a Pull Request
-In order to push to main you need to make a pull request where people can review your changes and make any modifications if needed before the changes are introduced into main.
+In order to push to main you need to make a pull request where people can review your changes and make any modifications if needed before the changes are introduced into main. PRs also don't have to just to be main, you could be merging your changes to a different branch.
 1. In the browser version of GitHub, go to the Pull Requests tab -> New Pull Request
 2. Figure out which branches you want to merge to
 3. Add a comment explaining your changes
 4. Add reviewers for your changes (currnet reviewers can be seen below)
 5. Resolve any merge conflicts
+6. Once your PR is approved by your reviewers you or they can merge the request
+7. Make sure to press the drop down in "Merge Pull Request" and do "Squash and Merge" which will also move your commit history to the branch you're merging to
 6. ??
 7. Profit :moneybag:
 
 
-Reviewers:
+Reviewers :rocket:
 1. Hanna Nguyen
 2. Lakshay Gupta
