@@ -56,19 +56,34 @@ Only files that you did ```git add``` for will be pushed to the remote repositor
 ## Wiring Diagram Formatting
 For the sake of :sparkles:	aesthetic :sparkles: we want to keep all wiring diagrams in the same formatting including: colors, sizing, wire thickness, and any descriptions. Note we work in dark mode because dark mode is cool.
 - Colors:
-    1. For PWR wires:
-    2. For GND wires:
-    3. For CAN wires:
+    1. For PWR wires: #FF0000
+    2. For GND wires: #F0F0F0
+    3. For CAN wires: #2D7600
     4. For Ethernet wires:
     5. For misc GPIO wires:
     7. For I2C wires:
     8. For SPI wires:
-    9. For IsoSPI wires:
+    9. For IsoSPI wires: #006EAF
 - Wire thickness:
+    1. Non-HV wire has a line thickness of 6 pt
+    2. HV wire has a line thickness of 20 pt
 - Board formatting:
+    1. Boards should have a board name + board dimensions (in mm) 
+    2. The thickness of the box should be around 6 pt for extra readability
+    3. Rounded corners are great
+- Misc formatting:
+    1. Indicate the area around an enclosure with non-filled 7 pt dashed line
+    2. Wire text font size is usually 30 pt, but for any HV or large bundles of wires, the standard is 50 pt
 
 ## Making a Pull Request
 In order to push to main you need to make a pull request where people can review your changes and make any modifications if needed before the changes are introduced into main.
+1. In the browser version of GitHub, go to the Pull Requests tab -> New Pull Request
+2. Figure out which branches you want to merge to
+3. Add a comment explaining your changes
+4. Add reviewers for your changes (currnet reviewers can be seen below)
+5. Resolve any merge conflicts
+6. ??
+7. Profit
 
 
 Reviewers:
