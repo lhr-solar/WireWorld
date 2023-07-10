@@ -2,7 +2,7 @@
 This repository contains information the wiring of all the electrical systems in the casr
 
 
-## Setup
+## Setup :new:
 ### Downloads
 Install the Diagrams.net desktop app (https://github.com/jgraph/drawio-desktop/releases/tag/v21.6.1)
 
@@ -42,7 +42,7 @@ When you a push a new branch to the repo you need to do ```git push --set-upstre
 7. ```git pull``` will pull changes from the remote repository to your local folder
 
 
-## Pushing to this repository 
+## Pushing to this repository :computer:
 Make sure you’re not pushing to main, you should only be pushing to main though a Pull Request
 1. Make sure you’re cd’d into your repository
 2. Run ```git pull``` so you’re up to date with any other changes
@@ -53,13 +53,17 @@ Make sure you’re not pushing to main, you should only be pushing to main thoug
 Only files that you did ```git add``` for will be pushed to the remote repository
 7. Revel in how cool you feel :sunglasses: rn
 
+## Common Problems :frowning:
+1. You're trying to switch branches but git is telling you that there are local changes and you need to commit or stash them. This means you've changed someonething on your branch. If you don't want to commit your changes run ```git stash```
+
+
 ## Wiring Diagram Formatting
 For the sake of :sparkles:	aesthetic :sparkles: we want to keep all wiring diagrams in the same formatting including: colors, sizing, wire thickness, and any descriptions. Note we work in dark mode because dark mode is cool.
 - Colors:
     1. For PWR wires: #FF0000
     2. For GND wires: #F0F0F0
     3. For CAN wires: #2D7600
-    4. For Ethernet wires:
+    4. For Ethernet wires: #6C8EBF
     5. For misc GPIO wires:
     7. For I2C wires:
     8. For SPI wires:
@@ -71,6 +75,9 @@ For the sake of :sparkles:	aesthetic :sparkles: we want to keep all wiring diagr
     1. Boards should have a board name + board dimensions (in mm) 
     2. The thickness of the box should be around 6 pt for extra readability
     3. Rounded corners are great
+    4. When there is a connector try to use the exact name label that is used on the actual boad, also put down the connector number (Usually it'll start with a J)
+- Legend
+    1. Always have a legend section where you can talk about what components are in your diagram
 - Misc formatting:
     1. Indicate the area around an enclosure with non-filled 7 pt dashed line
     2. Wire text font size is usually 30 pt, but for any HV or large bundles of wires, the standard is 50 pt
@@ -83,7 +90,7 @@ In order to push to main you need to make a pull request where people can review
 4. Add reviewers for your changes (currnet reviewers can be seen below)
 5. Resolve any merge conflicts
 6. ??
-7. Profit
+7. Profit :moneybag:
 
 
 Reviewers:
