@@ -11,18 +11,18 @@ if os.path.exists("./Master_diagram.drawio"):
 
 #concat xml files
 retstr = ""
-for name in sorted(os.listdir("./diagrams")):
+for name in [f for f in sorted(os.listdir("./diagrams")) if f.endswith((".drawio",".xml"))]:
     #read the file
-     file_extension = os.path.splitext(name)[1]
-     if(file_extension == '.drawio' or file_extension == '.xml'):
-        print(name + " has been merged!\n")
-        with open("./diagrams/" + name, "r") as f:
-            content = f.read()
-            content = re.sub(".*?xml.*","",content) #strip xml header
-            content = re.sub(".*mxfile.*","",content) #remove mxfile start/end tag
-            retstr += content
-     else:
-        print(name + " has been skipped :(\n")
+     # file_extension = os.path.splitext(name)[1]
+     # if(file_extension == '.drawio' or file_extension == '.xml'):
+    print(name + " has been merged!\n")
+    with open("./diagrams/" + name, "r") as f:
+        content = f.read()
+        content = re.sub(".*?xml.*","",content) #strip xml header
+        content = re.sub(".*mxfile.*","",content) #remove mxfile start/end tag
+        retstr += content
+     # else:
+        # print(name + " has been skipped :(\n")
 
 # add the header to the top, footer to the bottom
 retstr = header + header2 + "\t" + retstr + footer
