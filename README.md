@@ -70,10 +70,7 @@ For the sake of :sparkles:	aesthetic :sparkles: we want to keep all wiring diagr
     2. For GND wires: #F0F0F0
     3. For CAN wires: #2D7600
     4. For Ethernet wires: #6C8EBF
-    5. For misc GPIO wires:
-    7. For I2C wires:
-    8. For SPI wires:
-    9. For IsoSPI wires: #006EAF
+    5. For IsoSPI wires: #006EAF
 - Wire thickness:
     1. Non-HV wire has a line thickness of 6 pt
     2. HV wire has a line thickness of 20 pt
@@ -87,7 +84,7 @@ For the sake of :sparkles:	aesthetic :sparkles: we want to keep all wiring diagr
 - Misc formatting:
     1. Indicate the area around an enclosure with non-filled 7 pt dashed line
     2. Wire text font size is usually 30 pt, but for any HV or large bundles of wires, the standard is 50 pt
-    
+
 ## Generator script
 This script allows us to combine various xml or .drawio files into one single .drawio file.
 To export your sheets go into the Master_diagram.drawio file and do File -> Export As -> Uncheck 'All pages' -> Export this will export the sheet you're currently on as a .xml file. Make sure to save it into the 'diagrams' folder.
