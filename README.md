@@ -32,8 +32,8 @@ There are 2 ways to do this:
 right click empty space -> Show more options -> Start Git Bash
 
 Once you've entered your cloning designation or choice, run the command ```git clone```
-The repository should now be copied into your folder 🥳
-Make sure to cd into your repository right after since when you clone a repo your computer won’t put you into that directory
+The repository should now be copied into your folder 🥳  
+Make sure to cd into your repository right after since when you clone a repo your computer won’t put you into that directory  
 NOTE: When cloning board repositories you’ll run ```git clone —recursive``` which will clone the submodule repository used to store the common KiCAD symbols and 3D models for their boards. Since as of 2023 this repo doesn’t use any submodule repositories you don’t need to add the recursive part, you can if you’d like.
 
 ## Useful Commands :exclamation:
@@ -85,10 +85,10 @@ For the sake of :sparkles:	aesthetic :sparkles: we want to keep all wiring diagr
     2. Wire text font size is usually 30 pt, but for any HV or large bundles of wires, the standard is 50 pt
 
 ## Generator script
-This script allows us to combine various xml or .drawio files into one single .drawio file.
-To export your sheets go into the Master_diagram.drawio file and do File -> Export As -> Uncheck 'All pages' -> Export this will export the sheet you're currently on as a .xml file. Make sure to save it into the 'diagrams' folder.
-The script works by deleting the old Master_diagram.drawio file, going through the diagrams folder and merging every file that ends in .drawio or .xml, and exports that as Master_diagram.drawio. This means that any xml sheet not in the diagrams folder will not be represented in the new Master_diagram.drawio and your old changes will be gone.
-To use the generator script, simply call `python diagram_generator.py`. This will combine the various xml files representing sub-diagrams into one large XML file which can be opened as a draw.io notebook. Ensure that you have Python installed.
+This script allows us to combine various xml or .drawio files into one single .drawio file.  
+To export your sheets go into the Master_diagram.drawio file and do File -> Export As -> Uncheck 'All pages' -> Export this will export the sheet you're currently on as a .xml file. Make sure to save it into the 'diagrams' folder.  
+The script works by deleting the old Master_diagram.drawio file, going through the diagrams folder and merging every file that ends in .drawio or .xml, and exports that as Master_diagram.drawio. This means that any xml sheet not in the diagrams folder will not be represented in the new Master_diagram.drawio and your old changes will be gone.  
+To use the generator script, simply call `python diagram_generator.py`. This will combine the various xml files representing sub-diagrams into one large XML file which can be opened as a draw.io notebook. Ensure that you have Python installed.  
 
 ## Making a Pull Request
 In order to push to main you need to make a pull request where people can review your changes and make any modifications if needed before the changes are introduced into main. PRs also don't have to just to be main, you could be merging your changes to a different branch.
