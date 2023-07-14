@@ -19,7 +19,7 @@ FreeCAD Download (https://www.freecad.org/downloads.php)
 - Type in ```/github subscribe lhr-solar/[repository name]```
 
 ### Setting up Git
-If you don't see yourself viewing any boards then download GitHub Desktop (https://desktop.github.com/) :vomiting_face:
+If you don't see yourself viewing any boards then download GitHub Desktop (https://desktop.github.com/) :vomiting_face:  
 If you see will be using Git for anything else (ie you’re a part of Wire Harnessing or Enclosures) then follow these guides for setting up SSH :sunglasses::
 1. https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent
 2. https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account
@@ -72,8 +72,7 @@ For the sake of :sparkles:	aesthetic :sparkles: we want to keep all wiring diagr
     4. For Ethernet wires: #6C8EBF
     5. For IsoSPI wires: #006EAF
 - Wire thickness:
-    1. Non-HV wire has a line thickness of 6 pt
-    2. HV wire has a line thickness of 20 pt
+    1. HV wire thickness should be larger than the LV and signal wire thickness to indicate a difference in AWG and voltage
 - Board formatting:
     1. Boards should have a board name + board dimensions (in mm) 
     2. The thickness of the box should be around 6 pt for extra readability
