@@ -12,6 +12,8 @@ Download git (https://git-scm.com/downloads)
 
 If you're in Wire Harnessing or Enclosures download KiCAD (https://www.kicad.org/download/)
 
+FreeCAD Download (https://www.freecad.org/downloads.php)
+
 (Optional) Add the GitHub app in Slack to get notifications whenever someone comments on your PR or other notifications
 - Go to Slack -> Add Apps
 - Connect GitHub Account
