@@ -69,6 +69,7 @@ For the sake of :sparkles:	aesthetic :sparkles: we want to keep all wiring diagr
     3. For CAN wires: #2D7600
     4. For Ethernet wires: #6C8EBF
     5. For IsoSPI wires: #006EAF
+    6. UART wires: #6C8EBF
 - Wire thickness:
     1. HV wire thickness should be larger than the LV and signal wire thickness to indicate a difference in AWG and voltage
 - Board formatting:
