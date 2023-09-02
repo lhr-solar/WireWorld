@@ -11,8 +11,6 @@ Download git (https://git-scm.com/downloads)
 
 If you're in Wire Harnessing or Enclosures download KiCAD (https://www.kicad.org/download/)
 
-FreeCAD Download (https://www.freecad.org/downloads.php)
-
 (Optional) Add the GitHub app in Slack to get notifications whenever someone comments on your PR or other notifications
 - Go to Slack -> Add Apps
 - Connect GitHub Account
@@ -28,7 +26,7 @@ If you see will be using Git for anything else (ie you’re a part of Wire Harne
 When you clone the repo you need to make sure that you're putting the folder somewhere that's easily accessible to you and somewhere that makes sense.
 There are 2 ways to do this:
 1. Use the ```cd``` command to navigate to your goal location. (information on how to use this command is in the ``Useful Commands`` secton)
-2. (Windows only) Nvigate to where you want to clone the repo in File Explorer
+2. (Windows only) Navigate to where you want to clone the repo in File Explorer
 right click empty space -> Show more options -> Start Git Bash
 
 Once you've entered your cloning designation or choice, run the command ```git clone```
@@ -71,6 +69,7 @@ For the sake of :sparkles:	aesthetic :sparkles: we want to keep all wiring diagr
     3. For CAN wires: #2D7600
     4. For Ethernet wires: #6C8EBF
     5. For IsoSPI wires: #006EAF
+    6. UART wires: #6C8EBF
 - Wire thickness:
     1. HV wire thickness should be larger than the LV and signal wire thickness to indicate a difference in AWG and voltage
 - Board formatting:
